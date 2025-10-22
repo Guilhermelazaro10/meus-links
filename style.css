@@ -99,7 +99,7 @@ body {
 .container > section > a > i {
     font-size: 1.2em;
     margin-right: 10px;
-    order: 1
+    order: 0
 }
 
 .container > section > a:hover {
