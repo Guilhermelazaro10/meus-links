@@ -98,8 +98,8 @@ body {
 
 .container > section > a > i {
     font-size: 1.2em;
-    margin-right: 10px;
-    order: 0
+    margin-left: 10px;
+    order: 2
 }
 
 .container > section > a:hover {
