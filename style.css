@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: #007bff;
+    --cor-fundo: #0a0a0a;    
+    --cor-card: #ffffff;    
+    --cor-botao-fundo: #222222;
+    --cor-texto-claro: #f0f0f0;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 420px;
+    height: 80vh;
+    width: 90%;
+    background-color: var(--cor-card);
+    border-radius: 20px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+.container > img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--cor-primaria);
+    margin-bottom: 25px;
+}
+
+.container h1 {
+    color: #111;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+.container h2 {
+    color: #666;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.container > section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.container > section > a {
+    background-color: var(--cor-botao-fundo);
+    color: var(--cor-card);
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 12px 20px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.container > section > a > i {
+    font-size: 1.2em;
+    margin-left: 10px;
+    order: 2
+}
+
+.container > section > a:hover {
+    background-color: #555;
+}
+
+.container > section > a:active {
+    background-color: #222;
+    transform: scale(0.98);
+    box-shadow: none
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 0.9em;
+    background-color: white;
+    padding: 5px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
