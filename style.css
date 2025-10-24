@@ -10,8 +10,10 @@
     --cor-primaria: #007bff;
     --cor-fundo: #0a0a0a;    
     --cor-card: #ffffff;    
-    --cor-botao-fundo: #222222;
+    --cor-botao-fundo: #1a1a1a;
     --cor-texto-claro: #f0f0f0;
+    --cor-texto-escuro: #111;
+    --cor-secundaria: #666; 
 }
 
 body, html {
@@ -22,10 +24,11 @@ body {
     background-color: var(--cor-fundo);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0px 10px;
+    padding: 20px;
     font-family: 'Inter', sans-serif;
+    color: var(--cor-texto-claro);
 }
 
 .container {
@@ -34,8 +37,8 @@ body {
     width: 90%;
     background-color: var(--cor-card);
     border-radius: 20px;
-    padding: 20px;
-
+    padding: 35px 25px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,25 +55,25 @@ body {
 }
 
 .container > img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid var(--cor-primaria);
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .container > h1 {
-    color: #111;
-    font-size: 1.8em;
-    margin-bottom: 5px;
+    color: var(--cor-texto-escuro);
+    font-size: 1.9em;
+    margin-bottom: 8px;
 }
 
 .container > h2 {
-    color: #666;
+    color: var(--cor-secundaria);
     font-size: 1em;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .container > section {
@@ -85,6 +88,7 @@ body {
     color: var(--cor-card);
     text-decoration: none;
     text-align: center;
+    font-weight: 500px;
     font-size: 1.1em;
     padding: 12px 20px;
     border-radius: 10px;
@@ -104,6 +108,7 @@ body {
 
 .container > section > a:hover {
     background-color: #555;
+    color: #fff;
 }
 
 .container > section > a:active {
@@ -115,10 +120,12 @@ body {
 footer {
     width: 100%;
     text-align: center;
-    color: black;
+    color: var(--cor-texto-claro);
+    border-top: 2px solid var(--cor-primaria);
     font-size: 0.9em;
-    background-color: white;
-    padding: 5px;
+    background-color: #111;
+    padding: 10px 0px;
+    margin-top: 30px;
 }
 
 footer a {
