@@ -86,6 +86,5 @@ Este projeto está licenciado sob a **Licença MIT** — você pode usá-lo, mod
 ---
 
 <p align="center">
-  Feito com ❤️ por <a href="https://github.com/Guilhermelazaro10">Guilherme Lazaro</a>
+  Desenvolvido com dedicação por <a href="https://github.com/Guilhermelazaro10">Guilherme Lazaro</a>
 </p>
-
