@@ -1,7 +1,7 @@
 <h1 align="center">🌐 Meus Links</h1>
 
 <p align="center">
-  <img src="imagens/preview.png" alt="Preview do site" width="400px" style="border-radius: 10px;">
+  <img src="imagens/meuslinks.png" alt="Preview do site" width="400px" style="border-radius: 10px;">
 </p>
 
 <p align="center">
